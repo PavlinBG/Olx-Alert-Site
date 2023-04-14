@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>OLX.pk Alert</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>OLX Alert</h1>
+    </header>
+    <main>
+      <form id="search-form">
+        <label for="search-query">Search:</label>
+        <input type="text" id="search-query" placeholder="Enter search query">
+        <button type="submit">Search</button>
+      </form>
+      <table id="search-results">
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Price</th>
+            <th>Location</th>
+            <th>Link</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+      <div id="result"></div>
+    </main>
+    <footer>
+      <p>&copy; 2023 Olx Alert Site</p>
+    </footer>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
