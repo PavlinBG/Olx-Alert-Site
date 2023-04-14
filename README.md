@@ -6,8 +6,7 @@ Simple Olx-Alert-Site is a GitHub repository containing the source code for a ba
 
 The site is built using HTML, CSS, and JavaScript. The site is designed to be lightweight and easy to use, and provides a clean interface for users to input their search queries and view the latest listings. 
 
-The project is ideal for developers who are new to web development or looking to build a simple web application as a learning exercise.
-
+ 
 ## 💻 Used technologies and libraries
 
 - Javascript
